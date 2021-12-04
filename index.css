@@ -1,117 +1,169 @@
-#customers {
-    border-collapse: collapse;
+.a{
+    text-decoration: none;
+}
+.cabeca {
     width: 100%;
-    height: 10vh;
-    font-family: 'Ropa Sans', sans-serif;
-    font-weight: 700;
+    display: flex;
+    padding: 25px;
+    padding-left: 10rem;
+    padding-right: 20rem;
+    align-items: center;
     justify-content: space-between;
+    font-family: 'Consolador', cursivo;
+    font-size: 22px;
+    color: rgb(82, 82, 82);
 }
 
-table, td, th {
-    border: 1px solid #ddd;
+.imagem{
+    width: 100%;
+}
+
+.titulos{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Consolador', cursivo;
+    font-size: 22px;
+    color: rgb(0, 23, 128);
+    font-weight: 900;
+}
+
+.horarios_culto{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.col{    
     text-align: center;
+    border: 1px solid #dddddd;
+    padding: 1rem 1.5rem ; 
+    border-radius: 1px;
+    gap: 5rem;
+    box-shadow: rgb(0 0 0 / 50%) 3px 3px 9px 1px;
 }
 
-table {
-    border-collapse: collapse;
-    width: 100%;
+h5{
+    border-bottom: 1px solid rgb(204, 204, 204);
+    line-height: 3rem;
+    margin-bottom: 1.4rem;
 }
 
-td {
-    padding: 15px;
-}
-
-th {
-    color: rgb(22, 22, 107);
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header {
-    width: 100%;
-    background-color: rgb(165, 165, 165);
-}
-
-header nav {
-    width: 100%;
-    padding: 20px;
-    background-color: rgb(255, 255, 255);
-    display: grid;
-    grid-template-columns: .5fr 1fr 1fr 1fr;
-}
-
-header nav div {
+.pix{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    -webkit-box-align: center;
     align-items: center;
-    font-size: 18px;
+    background-color: blue;
+    border-radius: 0.7rem;
+    padding: 4rem 3rem;
+    box-shadow: rgb(0 0 0 / 50%) 3px 3px 9px 1px;
+    color: aliceblue;
+}
+.box{
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: 5px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
-header nav div:nth-child(1) {
-    background-color: rgb(255, 255, 255);
+.onde_estamos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-header nav div:nth-child(2) {
-    background-color: rgb(255, 255, 255);
+.ofertas{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-header nav div:nth-child(3) {
-    background-color: rgb(255, 255, 255);
-}
-
-header nav div:nth-child(4) {
-    background-color: rgb(255, 255, 255);
-}
-
-main {
-    background-color: rgb(235, 235, 235);
-    padding: 20px;
-}
-
-
-
-main .culto {
+.mapa{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(22, 22, 107);
-}
-main .ondestamos {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: rgb(255, 255, 255);
-}
-main .ofertas {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: rgb(255, 255, 255);
-}
-main .maps {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
 }
 
-.d-flex .li{
+.rodape{
     width: 100%;
     display: flex;
-    justify-content: center;
+    padding-top: 50px;
     align-items: center;
+    flex-direction: column;
+    font-family: 'Consolador', cursivo;
+}
 
+.fNwuEU{
+    position: relative;
+    width: 100%;
+}
+
+.fNwuEU .overlay-image {
+    width: 100%;
+    height: 100%;
+    z-index: var(--elevation-z-base);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.fNwuEU img {
+    width: 100%;
+    height: 47rem;
+    object-fit: cover;
+}
+.sc-fubCzh .fNwuEU{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    color: rgb(255, 255, 255);
+    z-index: var(--elevation-z-inter);
+}
+.fNwuEU .sc-bdfBQB {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    color: rgb(255, 255, 255);
+    z-index: var(--elevation-z-inter);
+}
+
+.fNwuEU h1 {
+    font-size: 2.5rem;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.fNwuEU h3 {
+    font-size: 1rem;
+    letter-spacing: 18px;
+    text-transform: uppercase;
+    margin-top: 2rem;
 }
